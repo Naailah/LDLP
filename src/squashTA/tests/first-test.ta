@@ -13,3 +13,6 @@ TEST :
 # EXECUTE_SOAPUI Projectn2.xml WITH TEST_SUITE TestSuite AND TEST_CASE recuperer_projets
 # EXECUTE_SOAPUI Projectn2.xml WITH TEST_SUITE TestSuite AND TEST_CASE recuperer_1_projet
 # EXECUTE_SOAPUI Projectn2.xml WITH TEST_SUITE TestSuite AND TEST_CASE supprimer_projet
+
+# EXECUTE_SOAPUI Project-2-soapui-project-bis.xml WITH TEST_SUITE TestSuite1 AND TEST_CASE Calendriers
+# EXECUTE_SOAPUI Project-2-soapui-project-bis.xml WITH TEST_SUITE TestSuite1 AND TEST_CASE Ressources
