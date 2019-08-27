@@ -6,11 +6,9 @@
 
 SETUP :
 
-LOAD setup.sql AS setup.file
-CONVERT setup.file TO query.sql AS script
+
 
 TEST :
-EXECUTE execute WITH query ON my_database AS raw_result
 # EXECUTE_SOAPUI Projectn2.xml WITH TEST_SUITE TestSuite AND TEST_CASE creer_projet 
 # EXECUTE_SOAPUI Projectn2.xml WITH TEST_SUITE TestSuite AND TEST_CASE recuperer_projets
 # EXECUTE_SOAPUI Projectn2.xml WITH TEST_SUITE TestSuite AND TEST_CASE recuperer_1_projet
