@@ -1,4 +1,4 @@
---delete from logicaldoc.ld_bookmark;
+delete from logicaldoc.ld_bookmark;
 --commit;
 --delete from logicaldoc.ld_version;
 --commit;
@@ -7,4 +7,3 @@
 --commit;
 --delete from logicaldoc.ld_folder where ld_creator is not null and ld_id != 3670017;
 --commit;
-select * from logicaldoc.ld_bookmark
