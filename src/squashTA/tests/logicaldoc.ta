@@ -2,7 +2,6 @@ SETUP :
 LOAD setup.sql AS setup.file
 CONVERT setup.file TO script.sql(script) AS script
 TEST :
-EXECUTE execute WITH script ON db AS $()
 # EXECUTE_SOAPUI_VERIFY REST_Projet2.xml WITH TEST_SUITE TestSuiteFolder AND TEST_CASE TestCaseListChildren
 # EXECUTE_SOAPUI_VERIFY REST_Projet2.xml WITH TEST_SUITE TestSuiteFolder AND TEST_CASE TestCaseCreate
 # EXECUTE_SOAPUI_VERIFY REST_Projet2.xml WITH TEST_SUITE find AND TEST_CASE TestCaseFindByExpression
@@ -14,5 +13,5 @@ EXECUTE execute WITH script ON db AS $()
 # EXECUTE_SOAPUI_VERIFY REST_Projet2.xml WITH TEST_SUITE TestSuiteDocument AND TEST_CASE TestCaseGetDocument
 # EXECUTE_SOAPUI_VERIFY REST_Projet2.xml WITH TEST_SUITE TestSuiteDocument AND TEST_CASE TestCaseSuppressionBookmark
 # EXECUTE_SOAPUI_VERIFY REST_Projet2.xml WITH TEST_SUITE TestSuiteDocument AND TEST_CASE TestCaseSuppressionDocument
-
+EXECUTE execute WITH script ON db AS $()
 
