@@ -25,13 +25,13 @@
 				
 				<!-- Here you can add libraries to the engine classpath, using the <dependencies></dependencies> tag -->
                 <!-- A sample with the mySql jdbc driver -->
-				<!-- <dependencies> -->
-                <!--     <dependency> -->
-                <!--        <groupId>mysql</groupId> -->
-                <!--        <artifactId>mysql-connector-java</artifactId> -->
-                <!--        <version>5.1.19</version> -->
-                <!--     </dependency> -->
-				<!-- </dependencies> -->
+				<dependencies>
+                    <dependency>
+                       <groupId>mysql</groupId>
+                       <artifactId>mysql-connector-java</artifactId>
+                       <version>5.1.15</version>
+                    </dependency>
+				</dependencies>
 				
 				<!-- Under here is the Squash TA framework default configuration -->
 				<configuration>
