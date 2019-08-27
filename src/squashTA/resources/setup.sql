@@ -1,5 +1,5 @@
 delete from logicaldoc.ld_bookmark;
---commit;
+commit;
 --delete from logicaldoc.ld_version;
 --commit;
 --update logicaldoc.ld_document set ld_deleted = 0, ld_title = 'title_origine' where ld_id = 3571717;
