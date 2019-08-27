@@ -140,8 +140,8 @@
 "dateFrom":"2019-08-23 14:14:25 +0200"
 }
 </con:request><con:originalUri>http://192.168.102.199/logicaldoc/services/rest/find</con:originalUri><con:credentials><con:username>admin</con:username><con:password>admin</con:password><con:selectedAuthProfile>Basic</con:selectedAuthProfile><con:addedBasicAuthenticationTypes>Basic</con:addedBasicAuthenticationTypes><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource></con:interface><con:testSuite id="df4e7871-281b-4d8d-85ac-be85a0f532cc" name="TestSuiteFolder"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="412ba8a0-14d5-4b6d-ae62-1e19ee8f962e" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="TestCaseListChildren" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Groovy_BDD" id="8a85e927-3940-4733-b7ae-61359515d5c1"><con:settings/><con:config><script>log.info("debut script groovy - 1 - ")
-@Grab('mysql:mysql-connector-java:5.1.15')
-@GrabConfig(systemClassLoader = true)
+//@Grab('mysql:mysql-connector-java:5.1.15')
+//@GrabConfig(systemClassLoader = true)
 import groovy.sql.Sql
 com.eviware.soapui.support.GroovyUtils.registerJdbcDriver( "com.mysql.jdbc.Driver" )
 
