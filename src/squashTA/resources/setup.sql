@@ -1,9 +1,9 @@
-DELETE FROM logicaldoc.ld_bookmark;
+DELETE FROM ld_bookmark;
 --COMMIT;
 DELETE FROM ld_version;
 --commit;
---update logicaldoc.ld_document set ld_deleted = 0, ld_title = 'title_origine' where ld_id = 3571717;
---delete from logicaldoc.ld_document where ld_id != 3571717 AND ld_id != 3964928;
+UPDATE ld_document SET ld_deleted = 0, ld_title = 'title_origine' WHERE ld_id = 3571717;
+DELETE FROM ld_document WHERE ld_id != 3571717 AND ld_id != 3964928;
 --commit;
---delete from logicaldoc.ld_folder where ld_creator is not null and ld_id != 3670017;
---commit;
+DELETE FROM ld_folder WHERE ld_creator IS NOT null AND ld_id != 3670017;
+COMMIT;
