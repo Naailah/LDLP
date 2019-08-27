@@ -1,6 +1,6 @@
 SETUP :
-LOAD setup.sql AS setup.file
-CONVERT setup.file TO script.sql(script) AS script
+//LOAD setup.sql AS setup.file
+//CONVERT setup.file TO script.sql(script) AS script
 TEST :
 # EXECUTE_SOAPUI_VERIFY REST_Projet2.xml WITH TEST_SUITE TestSuiteFolder AND TEST_CASE TestCaseListChildren
 # EXECUTE_SOAPUI_VERIFY REST_Projet2.xml WITH TEST_SUITE TestSuiteFolder AND TEST_CASE TestCaseCreate
@@ -13,5 +13,6 @@ TEST :
 # EXECUTE_SOAPUI_VERIFY REST_Projet2.xml WITH TEST_SUITE TestSuiteDocument AND TEST_CASE TestCaseGetDocument
 # EXECUTE_SOAPUI_VERIFY REST_Projet2.xml WITH TEST_SUITE TestSuiteDocument AND TEST_CASE TestCaseSuppressionBookmark
 # EXECUTE_SOAPUI_VERIFY REST_Projet2.xml WITH TEST_SUITE TestSuiteDocument AND TEST_CASE TestCaseSuppressionDocument
-EXECUTE execute WITH script ON db AS $()
+//EXECUTE execute WITH script ON db AS $()
+# EXECUTE _SQL_SCRIPT setup.sql ON logicaldoc AS result WITH ENCODING UTF-8 AND DELIMITER ;
 
