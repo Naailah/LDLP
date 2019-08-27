@@ -14,5 +14,5 @@ TEST :
 # EXECUTE_SOAPUI_VERIFY REST_Projet2.xml WITH TEST_SUITE TestSuiteDocument AND TEST_CASE TestCaseSuppressionBookmark
 # EXECUTE_SOAPUI_VERIFY REST_Projet2.xml WITH TEST_SUITE TestSuiteDocument AND TEST_CASE TestCaseSuppressionDocument
 //EXECUTE execute WITH script ON db AS $()
-# EXECUTE_SQL_SCRIPT setup.sql ON logicaldoc AS result WITH ENCODING UTF-8 AND DELIMITER ;
+# EXECUTE_SQL_SCRIPT_BY_REMOVING_SEPARATOR setup.sql ON logicaldoc AS result
 
