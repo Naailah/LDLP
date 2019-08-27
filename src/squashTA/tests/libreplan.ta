@@ -15,8 +15,8 @@ EXECUTE execute WITH query ON my_database AS raw_result
 # EXECUTE_SOAPUI Projectn2.xml WITH TEST_SUITE TestSuite AND TEST_CASE recuperer_projets
 # EXECUTE_SOAPUI Projectn2.xml WITH TEST_SUITE TestSuite AND TEST_CASE recuperer_1_projet
 # EXECUTE_SOAPUI Projectn2.xml WITH TEST_SUITE TestSuite AND TEST_CASE supprimer_projet
-# EXECUTE_SOAPUI P2BR.xml WITH TEST_SUITE TestSuiteCalendriers AND TEST_CASE TestRecupererTousLesCalendriers
+# EXECUTE_SOAPUI P2BR.xml WITH TEST_SUITE TestSuiteCalendriers AND TEST_CASE TestCalendriers
 # EXECUTE_SOAPUI P2BR.xml WITH TEST_SUITE TestSuiteCalendriers AND TEST_CASE TestRecupererUnCalendrier
-# EXECUTE_SOAPUI P2BR.xml WITH TEST_SUITE TestSuiteRessources AND TEST_CASE TestCreerUneRessource
+# EXECUTE_SOAPUI P2BR.xml WITH TEST_SUITE TestSuiteRessources AND TEST_CASE TestRessources
 # EXECUTE_SOAPUI P2BR.xml WITH TEST_SUITE TestSuiteRessources AND TEST_CASE TestRecupererToutesLesRessources
 # EXECUTE_SOAPUI P2BR.xml WITH TEST_SUITE TestSuiteRessources AND TEST_CASE TestRecupererUneRessource
