@@ -1,3 +1,5 @@
+SETUP :
+
 TEST :
 
 # EXECUTE_SOAPUI_VERIFY REST_Projet2.xml WITH TEST_SUITE TestSuiteFolder AND TEST_CASE TestCaseListChildren
@@ -11,6 +13,5 @@ TEST :
 # EXECUTE_SOAPUI_VERIFY REST_Projet2.xml WITH TEST_SUITE TestSuiteDocument AND TEST_CASE TestCaseGetDocument
 # EXECUTE_SOAPUI_VERIFY REST_Projet2.xml WITH TEST_SUITE TestSuiteDocument AND TEST_CASE TestCaseSuppressionBookmark
 # EXECUTE_SOAPUI_VERIFY REST_Projet2.xml WITH TEST_SUITE TestSuiteDocument AND TEST_CASE TestCaseSuppressionDocument
-
 
 
